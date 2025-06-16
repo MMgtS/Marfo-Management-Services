@@ -19,7 +19,7 @@ const WhyThisWorks = () => {
         
         <div className="bg-[#1d87ae] text-white p-8 rounded-xl">
           <p className="text-lg leading-relaxed">
-            I've done this inside early-stage startups—fixing what's broken and keeping support sane while teams scale. 
+            I've done this inside early-stage startups fixing what's broken and keeping support sane while teams scale. 
             <span className="font-bold block mt-4 text-[#ffcf0d]">
               Plug me in, I'll fix it.
             </span>
