@@ -1,4 +1,5 @@
 
+
 const HowToWork = () => {
   return (
     <section className="py-20 px-6 bg-white">
@@ -12,31 +13,66 @@ const HowToWork = () => {
         </p>
         
         {/* Main Pricing Card */}
-        <div className="bg-white border-2 border-[#ffcf0d] rounded-2xl p-8 shadow-lg mb-8 max-w-2xl mx-auto">
-          <div className="text-center mb-6">
-            <div className="text-5xl font-bold text-black mb-2">$1,500</div>
-            <div className="text-lg text-gray-600">4-Week Sprint</div>
+        <div className="bg-white border-2 border-[#ffcf0d] rounded-2xl p-8 shadow-lg mb-8 max-w-3xl mx-auto">
+          <div className="flex items-center justify-center mb-6">
+            <span className="text-2xl mr-3">🟡</span>
+            <h3 className="text-2xl md:text-3xl font-bold text-black">The Support Ops Reset Sprint</h3>
           </div>
           
-          <div className="space-y-4 mb-8">
-            <div className="flex items-center justify-center p-4 bg-gray-50 rounded-xl">
-              <span className="text-2xl mr-4">🗓️</span>
-              <p className="text-lg text-gray-800">One 4-week sprint</p>
+          <div className="grid md:grid-cols-3 gap-6 mb-8 text-left">
+            <div>
+              <p className="text-sm font-semibold text-gray-600 mb-2">Best for:</p>
+              <p className="text-gray-800">Startups drowning in tickets, running on duct-taped systems</p>
             </div>
-            
-            <div className="flex items-center justify-center p-4 bg-gray-50 rounded-xl">
-              <span className="text-2xl mr-4">🧰</span>
-              <p className="text-lg text-gray-800">Done-for-you execution + async check-ins</p>
+            <div>
+              <p className="text-sm font-semibold text-gray-600 mb-2">Duration:</p>
+              <p className="text-gray-800">4 weeks</p>
             </div>
-            
-            <div className="flex items-center justify-center p-4 bg-gray-50 rounded-xl">
-              <span className="text-2xl mr-4">🧪</span>
-              <p className="text-lg text-gray-800">No risk: if we're not a match after the first call, we don't move forward</p>
+            <div>
+              <p className="text-sm font-semibold text-gray-600 mb-2">Investment:</p>
+              <p className="text-3xl font-bold text-black">$1,500</p>
             </div>
           </div>
           
-          <div className="bg-[#1d87ae] text-white p-4 rounded-xl mb-6">
-            <p className="text-sm font-medium">💵 Price increases per client slot - Book now to lock in this rate</p>
+          <div className="mb-8">
+            <h4 className="text-lg font-semibold text-black mb-4">What's included:</h4>
+            <div className="grid md:grid-cols-2 gap-3 text-left">
+              <div className="flex items-start">
+                <span className="text-green-500 mr-2">✅</span>
+                <p className="text-gray-800">Full inbox audit + backlog triage</p>
+              </div>
+              <div className="flex items-start">
+                <span className="text-green-500 mr-2">✅</span>
+                <p className="text-gray-800">AI + macro setup that actually works</p>
+              </div>
+              <div className="flex items-start">
+                <span className="text-green-500 mr-2">✅</span>
+                <p className="text-gray-800">Custom triage flows + tagging rules</p>
+              </div>
+              <div className="flex items-start">
+                <span className="text-green-500 mr-2">✅</span>
+                <p className="text-gray-800">Done-for-you execution + async check-ins</p>
+              </div>
+              <div className="flex items-start">
+                <span className="text-green-500 mr-2">✅</span>
+                <p className="text-gray-800">Spot churn and bug insights hiding in your support logs</p>
+              </div>
+              <div className="flex items-start">
+                <span className="text-green-500 mr-2">✅</span>
+                <p className="text-gray-800">One training handoff to get your team set up and scaling</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Guarantee Section - Made to Stand Out */}
+          <div className="bg-gradient-to-r from-[#ffcf0d] to-[#e6b800] text-black p-6 rounded-xl border-2 border-black shadow-lg">
+            <div className="flex items-center justify-center mb-3">
+              <span className="text-2xl mr-2">💥</span>
+              <h4 className="text-xl font-bold">Guarantee:</h4>
+            </div>
+            <p className="text-lg font-semibold leading-relaxed">
+              If we don't fix one core issue in Week 1, you get a full refund. No fluff. No risk. Just real support that moves the needle.
+            </p>
           </div>
         </div>
         
@@ -58,3 +94,4 @@ const HowToWork = () => {
 };
 
 export default HowToWork;
+
