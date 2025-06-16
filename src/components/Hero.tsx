@@ -30,9 +30,7 @@ const Hero = () => {
                 I help fast-moving SaaS & AI startups clear their backlog, speed up response times, 
                 and build support systems that don't collapse under pressure.
               </p>
-              <p className="mt-4 text-lg font-semibold">
-                This isn't just about tickets—it's about protecting revenue and customer trust.
-              </p>
+              <p className="mt-4 text-lg font-semibold">This isn't just about tickets, it's about protecting revenue and customer trust.</p>
             </div>
           </div>
         </div>
